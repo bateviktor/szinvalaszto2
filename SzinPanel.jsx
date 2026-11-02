@@ -1,5 +1,5 @@
 function SzinPanel({color}) {
-    return{
+    return (
         <div>
         style ={{
             backgroundColor: color ? color.rgb :"#eee",
@@ -8,7 +8,7 @@ function SzinPanel({color}) {
             margin: "20px auto",
         }}
         </div>
-    };
+    );
 }
 
 export default SzinPanel;
